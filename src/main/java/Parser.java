@@ -6,7 +6,7 @@ public class Parser {
     public static void main(String args[]) {
         try {
             // Le fichier d'entrée
-            FileInputStream file = new FileInputStream("C:\\Users\\rapha\\Documents\\test.txt");
+            FileInputStream file = new FileInputStream("src/main/java/text.txt");
             Scanner scanner = new Scanner(file);
 
             //renvoie true s'il y a une autre ligne à lire
